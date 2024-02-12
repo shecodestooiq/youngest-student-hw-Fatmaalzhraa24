@@ -1,6 +1,6 @@
 function showYoungestStudent(userDefinedStudents){
     var min=userDefinedStudents[0].age
-    if (userDefinedStudents==null) { 
+    if (userDefinedStudents.length==0) { 
         console.log('this array is empty please enter your info');
         
     }
